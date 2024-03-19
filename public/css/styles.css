@@ -5,6 +5,27 @@
     --accent-color: #5cebdf;
     --accent-color-alternate: #ff6b60;
 }
+nav ul {
+  list-style-type: none;
+  margin: 100;
+  padding: 100;
+  overflow: hidden;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+nav a {
+  display: block;
+  color: green;
+  padding: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border-radius: 50px;
+}
+
+nav a:hover {
+  background-color: #051358;
+}
 
 html,
 body {
