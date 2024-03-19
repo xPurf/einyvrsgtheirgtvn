@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fish Reward Collection Form</title>
-  <link rel="stylesheet" href="/css/styles.css" />
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -48,7 +47,7 @@
   </style>
 </head>
 <body>
-  <header>
+   <header>
         <nav>
             <ul>
               <li><a href="/index">Home</a></li>
@@ -60,15 +59,15 @@
         </nav>
     </header>
   <h1>Collect Your Fish Reward</h1>
-  <form action="submit.php" method="post" enctype="multipart/form-data">
+  <p>Congratulations on catching the legendary Einyvrsgtheirgtvn fish! You are now eligible to claim the ultimate reward - a grand prize of $10,000 USD!</p>
+  <p>But that's not all! The first person to catch this elusive creature will be featured in an exclusive magazine spread, showcasing their remarkable achievement to the world!</p>
+  <p>Please fill out the form below to claim your reward:</p>
+  <form action="thankyou.html">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name" required><br>
     
     <label for="email">Email:</label><br>
     <input type="email" id="email" name="email" required><br>
-    
-    <label for="fish_species">Fish Species:</label><br>
-    <input type="text" id="fish_species" name="fish_species" required><br>
     
     <label for="fish_picture">Fish Picture:</label><br>
     <input type="file" id="fish_picture" name="fish_picture" accept="image/*" required><br>
